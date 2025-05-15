@@ -80,6 +80,6 @@ if __name__ == "__main__":
     end_date = sys.argv[2]
     timing_time = sys.argv[3]
     is_daily_report = sys.argv[4]
-    # startFun(start_date, end_date, timing_time)
+    startFun(start_date, end_date, timing_time)
     sleep(10)
     print("DingDing.py 任务完成")  # 打印通知消息
